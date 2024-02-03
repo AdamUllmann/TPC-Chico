@@ -1,0 +1,18 @@
+.homePageBody {
+    position: fixed;
+    left: 24%;
+    right: 1%;
+    overflow-y: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.homePageTitle {
+    font-size: xx-large; 
+    font-weight: 400;
+}
+
+.homePageDescription {
+    font-size: large; 
+    font-weight: 300;
+}

@@ -1,0 +1,32 @@
+.contactBody {
+    position: fixed;
+    left: 39%;
+    right: 1%;
+    overflow-y: auto;
+    height: 100%;
+    top: 12%;
+  }
+  
+  .contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 30px;
+  }
+  
+  .contactCard {
+    flex: 0 0 calc(32.3333% - 1%);
+    padding: 2%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .contactCard h2 {
+    font-size: x-large;
+  }
+  
+  .contactCard p {
+    font-size: large;
+  }
+  

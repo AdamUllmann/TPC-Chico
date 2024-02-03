@@ -1,0 +1,69 @@
+.ProjectBody {
+    position: absolute;
+    left: 25%;
+    max-width: 100%;
+    top: 5%;
+}
+
+.ProjectMaker{
+    margin: 0%;
+}
+
+.ProjectElement {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+.ProjectColumn {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.ProjectTitle a{
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.ProjectTitle a:hover {
+    color: blue;
+}
+
+.ProjectHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectImage {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .ProjectColumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.FullscreenOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.FullscreenImage {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.ProjectDescription {
+    margin-top: 0%;
+}

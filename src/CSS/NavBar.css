@@ -1,0 +1,58 @@
+/* Navigation Bar Styles */
+.navBar {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  position: fixed;
+  left: 0; /* Position the navigation bar on the left side */
+  top: 0;
+  height: 100%;
+  width: 25%;
+  text-align: center;
+}
+
+/* List Styles within Navbar */
+.navBar ul {
+  color: grey;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inherit;
+  flex-direction: inherit;
+  gap: 2rem;
+  font-size: 150%;
+}
+
+/* Link Styles within Navbar */
+.navBar a {
+  color: inherit;
+  text-decoration: none;
+  display: inherit;
+  align-items: center;
+  padding: .25rem;
+}
+
+/* Active List Item Styles */
+.navBar li.active {
+  background-color: lightgray;
+  border-radius: 5%;
+  transition: background-color 1s ease;
+  color: black;
+}
+
+/* Hover Effect for List Items */
+.navBar li:hover {
+  color: white;
+}
+
+/* Call-to-Action Button Styles */
+.cta-button {
+  font-size: xx-large;
+  background-color: #7289DA;
+  border-radius: 5%;
+  font-weight: bold;
+  margin-top: 5%;
+}
