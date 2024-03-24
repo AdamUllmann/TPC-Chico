@@ -9,11 +9,54 @@
 .aboutTitle {
     font-size: xx-large;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .aboutDescription {
     font-size: large;
-    text-align: left;
-    font-weight: 300;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+    .aboutTitle {
+        font-size: 90%;
+    }
+    
+    .aboutDescription {
+        font-size: 90%;
+    }
+}
+  
+@media only screen and (max-width: 800px) {
+    .aboutTitle {
+        font-size: 80%;
+    }
+    
+    .aboutDescription {
+        font-size: 80%;
+    }
+}  
+  
+@media only screen and (max-width: 400px) {
+    .aboutTitle {
+        font-size: 70%;
+    }
+    
+    .aboutDescription {
+        font-size: 70%;
+    }
+}
+
+/* For devices with similar portrait and landscape dimensions*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 768px) {
+    .aboutTitle {
+        font-size: 120%;
+    }
+    
+    .aboutDescription {
+        font-size: 120%;
+    }
 }

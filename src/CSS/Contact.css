@@ -1,25 +1,25 @@
 .contactBody {
     position: fixed;
-    left: 39%;
+    left: 30%;
     right: 1%;
     overflow-y: auto;
     height: 100%;
-    top: 12%;
+    padding-top: 5%;
   }
   
   .contactContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 0px 30px;
   }
   
   .contactCard {
     flex: 0 0 calc(32.3333% - 1%);
     padding: 2%;
-    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-bottom: 10%;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #E5E4E2;
   }
   
   .contactCard h2 {
@@ -29,4 +29,110 @@
   .contactCard p {
     font-size: large;
   }
+
+  /* Media Queries */
+@media only screen and (max-width: 1200px) {
+
+  .contactCard h2 {
+      font-size: 80%;
+  }
   
+  .contactCard p {
+      font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .contactCard h2 {
+      font-size: 70%;
+  }
+  
+  .contactCard p {
+      font-size: 60%;
+  }
+}  
+
+@media only screen and (max-width: 400px) {
+  .contactCard {
+    flex: none;
+  }
+
+  .contactCard h2 {
+      font-size: 60%;
+  }
+  
+  .contactCard p {
+      font-size: 50%;
+  }
+}
+
+@media only screen and (orientation: vertical) and (min-width: 400px) and (min-height: 800px)  {
+  .contactCard {
+    flex: none;
+  }
+  .contactCard h2 {
+      font-size: 100%;
+  }
+  
+  .contactCard p {
+      font-size: 100%;
+  }
+
+}
+
+@media only screen and (orientation: vertical) and (min-width: 500px) and (min-height: 1000px)  {
+  .contactCard {
+    flex: none;
+  }
+  .contactCard h2 {
+      font-size: 100%;
+  }
+  
+  .contactCard p {
+      font-size: 100%;
+  }
+
+}
+
+@media only screen and (orientation: vertical) and (min-width: 500px) and (min-height: 1100px)  {
+  .contactCard {
+    flex: none;
+  }
+  .contactCard h2 {
+      font-size: 110%;
+  }
+  
+  .contactCard p {
+      font-size: 100%;
+  }
+
+}
+
+@media only screen and (orientation: vertical) and (min-width: 500px) and (min-height: 1200px)  {
+  .contactCard {
+    flex: none;
+  }
+  .contactCard h2 {
+      font-size: 120%;
+  }
+  
+  .contactCard p {
+      font-size: 110%;
+  }
+
+}
+
+@media (orientation: vertical) and (min-width: 500px) and (min-height: 1300px)  {
+  .contactCard {
+    flex: none;
+  }
+  .contactCard h2 {
+      font-size: 130%;
+  }
+  
+  .contactCard p {
+      font-size: 120%;
+  }
+
+}

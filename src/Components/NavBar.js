@@ -1,16 +1,18 @@
 import React from 'react';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import '../CSS/NavBar.css';
-import logo from '../Images/ClubLogo.png'
+import logo from '../Images/Logo/ClubLogo.png'
 
 export default function NavBar() {
   return (
     <nav className="navBar">
-      <img src={logo} alt="Club logo" width='25%'/>
+      <a className='clubLogo' href='#/Home'>
+        <img src={logo} alt="Club logo" width='25%'/>
+      </a>
       <h1>TPC Chico</h1>
       <h2>Technical Projects Club</h2>
       <ul>
-        <CustomLink to="/HomePage">Home</CustomLink>
+        <CustomLink to="/Home">Home</CustomLink>
         <CustomLink to="/About">About</CustomLink>
         <CustomLink to="/Events">Events</CustomLink>
         <CustomLink to="/Projects">Projects</CustomLink>

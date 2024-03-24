@@ -1,15 +1,17 @@
-import AdamCellular3d from "../Images/AdamCellular3d.png"
-import NumanScheduleHelper from "../Images/NumanScheduleHelper.png"
-import AdamRaylib from  "../Images/AdamRaylib.png"
-import AdamGameofLife from "../Images/AdamGameofLife.png"
-import AlexSnailMazeSharp from "../Images/AlexSnailMazeSharp.png"
+import AdamCellular3d from "../Images/Projects/AdamCellular3d.png"
+import NumanScheduleHelper from "../Images/Projects/NumanScheduleHelper.png"
+import AdamRaylib from  "../Images/Projects/AdamRaylib.png"
+import AdamGameofLife from "../Images/Projects/AdamGameofLife.png"
+import AlexSnailMazeSharp from "../Images/Projects/AlexSnailMazeSharp.png"
+import Aidan3D from "../Images/Projects/Aidan3d.png"
+import MilesEmulator from "../Images/Projects/MilesEmulator.png"
 
 const projectsData = [
     {
       name: "Adam Ullmann",
       title: "Cellular Automata 3D",
-      githubLink: "https://github.com/AdamUllmann/Cellular-Automata-Online",
-      description: "A small personal project, simulating the real-time, animated behavior of cellular automata in 3-dimensional space, with user-input rules, camera controls, and speed controls. I also programmed rudimentary ground shadows and shading of the 3D objects, along with antialiasing, frustum culling, and occlusion culling (in progress). The project was heavily inspired by the 2D 'Conway's Game of Life' from 1970, which borrowed from the same mathematical concepts. All of this was done with a low-level C graphics library called Raylib. The simulation can handle up to 125,000 cells (cubes) in each frame, at 60 frames per second on modern machines. I am proud of this performance.",
+      githubLink: "https://github.com/AdamUllmann/Cellular-Automata-3D",
+      description: "Created a personal project using Raylib, simulating real-time 3D cellular automata behavior with user-input rules, camera controls, and speed adjustments. Implemented rudimentary ground shadows, shading, antialiasing, frustum culling, and ongoing work on occlusion culling. Inspired by Conway's Game of Life, the simulation supports up to 125,000 cells per frame, achieving 60 frames per second on modern machines.",
       image: AdamCellular3d,
     },
     {
@@ -40,6 +42,20 @@ const projectsData = [
       description: "Interactive Conway's Game of Life simulation built with raylib. Features dynamic grid, zoom, and speed controls.",
       image: AdamGameofLife,
     },
+    {
+      name: "Aidan Raymond",
+      title: "3D Model Viewer",
+      githubLink: "https://github.com/Tabris05/modelviewer",
+      description: "A simple program for viewing 3D renders of .gltf files in real time. Features include a fully dynamic physically based lighting model,  image-based global illumination, support for custom hdr skyboxes, and directional shadow-mapping with percentage-closer filtering.",
+      image: Aidan3D,
+    },
+    {
+      name: "Miles Benton",
+      title: "RISC-V EMUlator",
+      githubLink: "https://github.com/kil0meters/remu",
+      description: `REMU is a RISC-V RV64GC/Linux emulator focused on providing advanced performance metrics. It simulates CPU features like a primitive cache system, a fully-bypassed pipeline with potential stalls for certain instructions, and branch prediction. The emulator includes "puck," a command-line front-end with a disassembler and interactive reverse debugger. REMU supports little-endian CPU architectures and offers an example usage on Arch Linux for building with riscv64-linux-gnu-gcc.`,
+      image: MilesEmulator,
+  },
   ];
 
 export default projectsData;

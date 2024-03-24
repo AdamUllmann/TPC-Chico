@@ -1,18 +1,63 @@
 .homePageBody {
     position: fixed;
-    left: 24%;
+    left: 26%;
     right: 1%;
     overflow-y: auto;
     height: 100%;
     text-align: center;
+    max-width: 95%;
 }
 
 .homePageTitle {
     font-size: xx-large; 
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .homePageDescription {
     font-size: large; 
-    font-weight: 300;
+    font-weight: 400;
+}
+
+/* Media Queries */  
+@media only screen and (max-width: 1200px) {
+    .homePageTitle {
+        font-size: 90%;
+    }
+    
+    .homePageDescription {
+        font-size: 70%;
+    }
+}
+  
+@media only screen and (max-width: 800px) {
+    .homePageTitle {
+        font-size: 70%;
+    }
+    
+    .homePageDescription {
+        font-size: 60%;
+    }
+}  
+  
+@media only screen and (max-width: 400px) {
+
+    .homePageTitle {
+        font-size: 60%;
+    }
+    
+    .homePageDescription {
+        font-size: 50%;
+    }
+}
+
+/* For devices with similar portrait and landscape dimensions*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 768px) {
+    .homePageTitle {
+        font-size: 120%;
+    }
+    
+    .homePageDescription {
+        font-size: 120%;
+    }
+
 }

@@ -20,7 +20,7 @@ function Projects() {
                     <li key={index} className="ProjectElement">
                         <div className="ProjectColumn">
                             <div className="ProjectHeader">
-                                <h1 className="ProjectMaker">{project.name}</h1>
+                                <h1 className="ProjectTitle">{project.name}</h1>
                                 <h1 className='ProjectTitle'>
                                     <a href={project.githubLink} rel="noreferrer" target='_blank'>{project.title}</a>
                                 </h1>
